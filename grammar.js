@@ -1,13 +1,16 @@
 var walandablap = {
 	"origin": [
-		"#pattern1#"
+		"#pattern1# #pattern1# #pattern1# #pattern1# #pattern1# #pattern1#"
 	],
 	"pattern1": [
 		"#consmess##vowel##consend#",
 		"#consmess##vowel##double##afterdouble#",
 		"#consmess##pair##afterpair#",
 		"#rhythmic#",
-		"#beatcon#al#rhythmic#"
+		"#beatcon#al#rhythmic#",
+		"#consmess##vowel##beatcon#n#vowel##double##afterdouble#",
+		"#prefix##consmess##vowel##consend##suffix#",
+		"#rhythmic#-#rhythmic#"
 	],
 	"consmess": [
 		"gl",
@@ -25,7 +28,8 @@ var walandablap = {
 		"br",
 		"spr",
 		"gn",
-		"bl"
+		"bl",
+		"pt"
 	],
 	"consend": [
 		"g",
@@ -38,7 +42,8 @@ var walandablap = {
 		"#double#",
 		"lts",
 		"ck",
-		"nk"
+		"nk",
+		"lf"
 	],
 	"double": [
 		"dd",
@@ -52,7 +57,7 @@ var walandablap = {
 		"a#suffix#",
 		"id",
 		"is",
-		"ie"
+		"y"
 	],
 	"vowel": [
 		"e",
@@ -73,7 +78,8 @@ var walandablap = {
 		"lop",
 		"lok",
 		"lod",
-		"lob"
+		"lob",
+		"nag"
 	],
 	"rhythmic": [
 		"u#beatcon#tu#beatcon#",
@@ -81,7 +87,7 @@ var walandablap = {
 		"o#beatcon#no#beatcon#",
 		"e#beatcon#ne#beatcon#",
 		"abi#beatcon#ni#beatcon#",
-		"t#joinvowel#rri#beatcon#",
+		"at#joinvowel#rri#beatcon#",
 		"#beatcon#l#joinvowel##beatcon#"
 	],
 	"beatcon": [
@@ -93,5 +99,13 @@ var walandablap = {
 	"joinvowel": [
 		"u",
 		"a"
+	],
+	"prefix": [
+		"wor",
+		"gal",
+		"wal",
+		"nor",
+		"gor",
+		"gol"
 	]
 }
