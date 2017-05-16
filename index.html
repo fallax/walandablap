@@ -9,7 +9,13 @@
 <script>
 function init()
 {
-  $('#content').html("fnord!");
+  var grammar = tracery.createGrammar(walandablap);
+  var output = "";
+  for (var i = 0; i < 250; i++)
+  {
+    output += grammar.createFlattened() + " ";
+  }
+  $('#content').html(output);
 }
   </script>
 </head>
