@@ -1,122 +1,81 @@
 var walandablap = {
-	"pattern1": [
-		"#consmess##vowel##consend#",
-		"#consmess##vowel##double##afterdouble#",
-		"#consmess##pair##afterpair#",
-		"#rhythmic#",
-		"#beatcon#al#rhythmic#",
-		"#consmess##vowel##beatcon#n#vowel##double##afterdouble#",
-		"#prefix##consmess##vowel##consend##suffix#",
-		"#rhythmic#-#rhythmic#"
-	],
-	"consmess": [
-		"gl",
-		"spl",
-		"vr",
-		"gr",
-		"n",
-		"kl",
-		"tr",
-		"pr",
-		"pl",
-		"ft",
-		"sm",
-		"sw",
-		"br",
-		"spr",
-		"gn",
-		"bl",
-		"pt"
-	],
-	"consend": [
-		"g",
-		"b",
-		"nt",
-		"rt",
-		"lp",
-		"rk",
-		"t",
-		"#double#",
-		"lts",
-		"ck",
-		"nk",
-		"lf"
-	],
-	"double": [
-		"dd",
-		"bb",
-		"gg",
-		"ff",
-		"tt"
-	],
-	"afterdouble": [
-		"le",
-		"a#suffix#",
-		"id",
-		"is",
-		"y"
-	],
-	"vowel": [
-		"e",
-		"o"
-	],
-	"pair": [
-		"oi",
-		"ee",
-		"oo"
-	],
-	"afterpair": [
-		"k",
-		"d",
-		"l",
-		"b"
-	],
-	"suffix": [
-		"lop",
-		"lok",
-		"lod",
-		"lob",
-		"nag"
-	],
-	"rhythmic": [
-		"u#beatcon#tu#beatcon#",
-		"i#beatcon#ni#beatcon#",
-		"o#beatcon#no#beatcon#",
-		"e#beatcon#ne#beatcon#",
-		"abi#beatcon#ni#beatcon#",
-		"at#joinvowel#rri#beatcon#",
-		"#beatcon#l#joinvowel##beatcon#"
-	],
-	"beatcon": [
-		"b",
-		"g",
-		"p",
-		"d"
-	],
-	"joinvowel": [
-		"u",
-		"a"
-	],
-	"prefix": [
-		"wor",
-		"gal",
-		"wal",
-		"nor",
-		"gor",
-		"gol"
+	"origin": [
+		"#sentence.capitalize#.",
+		"#simple.capitalize#?",
+		"#sentence.capitalize#.",
+		"#sentence.capitalize#, #sentence#, #sentence#.",
+		"#sentence.capitalize# bal #sentence#.",
+		"#simple.capitalize# abba #sentence#?"
 	],
 	"sentence": [
-		"#pattern1.capitalize# #pattern1#",
-		"#pattern1.capitalize#",
-		"#pattern1.capitalize# #pattern1# #pattern1#",
-		"#pattern1.capitalize# #pattern1# #pattern1# #pattern1#"
+		"#triple# #double# #join# #simple#",
+		"#double# #join# #triple#"
 	],
-	"origin": [
-		"#sentence#.",
-		"#sentence#.",
-		"#sentence#.",
-		"#sentence#?",
-		"#sentence#. #sentence#.",
-		"#sentence#. #sentence#."
+	"simple": [
+		"brogg",
+		"sleb",
+		"dolf",
+		"klont",
+		"bleck",
+		"drelk",
+		"toik",
+		"blap",
+		"plob"
+	],
+	"double": [
+		"turrid",
+		"leffid",
+		"luffin",
+		"noffal",
+		"niblet",
+		"weddel",
+		"digly",
+		"ipthem",
+		"thelby"
+	],
+	"join": [
+		"a",
+		"anda",
+		"abba",
+		"olla",
+		"ponga",
+		"a",
+		"a",
+		"wal anda",
+		"ethem",
+		"offa"
+	],
+	"numbers": [
+		"bal#counting#",
+		"#counting#",
+		"gal#counting#",
+		"ab#counting#"
+	],
+	"counting": [
+		"ebneg",
+		"obnog",
+		"opnop",
+		"ebbit",
+		"ibnik",
+		"ubtup",
+		"ottid",
+		"ipnid",
+		"anippy",
+		"edned"
+	],
+	"triple": [
+		"grodlon",
+		"nongrodlon",
+		"notlok",
+		"warnotlok",
+		"noggid",
+		"negnoggid",
+		"nebbit",
+		"fregnebbit",
+		"wallatop",
+		"worplegnorp",
+		"#numbers#",
+		"#numbers#",
+		"nogganagg"
 	]
 }
