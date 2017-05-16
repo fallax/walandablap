@@ -11,9 +11,9 @@ function init()
 {
   var grammar = tracery.createGrammar(walandablap);
   var output = "";
-  for (var i = 0; i < 250; i++)
+  for (var i = 0; i < 500; i++)
   {
-    output += grammar.createFlattened() + " ";
+    output += grammar.flatten("#origin#") + " ";
   }
   $('#content').html(output);
 }
