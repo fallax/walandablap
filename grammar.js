@@ -5,7 +5,8 @@ var walandablap = {
 		"#sentence.capitalize#.",
 		"#sentence.capitalize#, #sentence#, #sentence#.",
 		"#sentence.capitalize# bal #sentence#.",
-		"#simple.capitalize# abba #sentence#?"
+		"#simple.capitalize# abba #sentence#?",
+		"#simple.capitalize#."
 	],
 	"sentence": [
 		"#triple# #double# #join# #simple#",
