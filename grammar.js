@@ -1,7 +1,4 @@
 var walandablap = {
-	"origin": [
-		"#pattern1# #pattern1# #pattern1# #pattern1# #pattern1# #pattern1#"
-	],
 	"pattern1": [
 		"#consmess##vowel##consend#",
 		"#consmess##vowel##double##afterdouble#",
@@ -107,5 +104,19 @@ var walandablap = {
 		"nor",
 		"gor",
 		"gol"
+	],
+	"sentence": [
+		"#pattern1.capitalize# #pattern1#",
+		"#pattern1.capitalize#",
+		"#pattern1.capitalize# #pattern1# #pattern1#",
+		"#pattern1.capitalize# #pattern1# #pattern1# #pattern1#"
+	],
+	"origin": [
+		"#sentence#.",
+		"#sentence#.",
+		"#sentence#.",
+		"#sentence#?",
+		"#sentence#. #sentence#.",
+		"#sentence#. #sentence#."
 	]
 }
