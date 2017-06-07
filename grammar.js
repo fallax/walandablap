@@ -22,7 +22,8 @@ var walandablap = {
 		"toik",
 		"blap",
 		"plob",
-		"bleb"
+		"bleb",
+		"ponk
 	],
 	"double": [
 		"turrid",
@@ -33,12 +34,14 @@ var walandablap = {
 		"weddel",
 		"digly",
 		"ipthem",
-		"thelby"
+		"thelby",
+		"flibbit"
 	],
 	"join": [
 		"a",
 		"anda",
 		"abba",
+		"alini",
 		"olla",
 		"ponga",
 		"a",
