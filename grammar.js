@@ -23,7 +23,7 @@ var walandablap = {
 		"blap",
 		"plob",
 		"bleb",
-		"ponk
+		"ponk"
 	],
 	"double": [
 		"turrid",
