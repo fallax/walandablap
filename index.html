@@ -4,15 +4,24 @@
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
-<script src="https://raw.githubusercontent.com/galaxykate/tracery/master/js/tracery.min.js"></script>
+<script src="tracery.js"></script>
 <script src="grammar.js"></script>
 <script>
 function init()
 {
-  $('#content').html("fnord");
+  var grammar = tracery.createGrammar(walandablap);
+  var output = "";
+  for (var i = 0; i < 500; i++)
+  {
+    output += "<b>fallicory</b>: " + grammar.flatten("#origin#") + "<br>";
+  }
+  $('#content').html(output);
 }
+  
+$(function () { init(); });
+  </script>
 </head>
-<body onload="init();">
+<body>
 <div id="content"></div>
 </body>
 </html>
